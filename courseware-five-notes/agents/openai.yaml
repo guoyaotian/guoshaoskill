@@ -1,4 +1,4 @@
 interface:
   display_name: "课件转五篇笔记"
-  short_description: "严格依据PDF课件生成五种角度的中文笔记，每篇600字以内并校验字数"
+  short_description: "将PDF课件整理成5篇不同角度的中文笔记，核对页码、区分建议并检查600字上限"
   default_prompt: "用 $courseware-five-notes，严格根据我提供的PDF课件生成5篇不同角度的笔记，每篇600字以内，标明页码并区分原文事实与使用建议。"
