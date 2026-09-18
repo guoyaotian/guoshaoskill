@@ -1,0 +1,6 @@
+interface:
+  display_name: "班会资料包"
+  short_description: "从班会课件生成逐字稿与教案双 Word，支持参考样式与内容校验"
+  default_prompt: "使用 $class-meeting-packager，把这个班会课件整理成独立的逐字稿和教案 Word，并检查内容对应、字数和版面。"
+policy:
+  allow_implicit_invocation: true
